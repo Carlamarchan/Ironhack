@@ -1,0 +1,54 @@
+.containerItem{
+    background-color: aquamarine;
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+}
+.containerBody{
+    background-color: rgb(144, 216, 126);
+    padding: 15px;
+}
+.containerHeader{
+    display: flex;
+    background-image: url("yo.jpg");
+    padding: 15px;
+    margin: 20px;
+    height: 42s0px;
+}
+.container{
+    background-color: blueviolet;
+    padding: 15px;
+    width: 100%;
+}
+.portada{
+    transform:rotateZ(90deg);
+}
+.imagenCabecera{
+    background-image: url("carla.jpeg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    rotate: 90deg;
+}
+.flex-container {
+  display:flex;
+  background-color: DodgerBlue;
+  height: 620PX;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 30px;
+  padding: 50px;
+  font-size: 30px;
+  width: 33%;
+  text-align: center;
+}
+h1{
+    padding: 60px;
+}
+p{
+    padding: 50px;
+    font-size: 40px;
+    text-align: justify;
+}
