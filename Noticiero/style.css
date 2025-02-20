@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagen-cabecera{     /* Imagen de la cabecera */
+    background-image: url(images/cabecera.png);
+    width: 100%;
+    height: 228px;
+    background-position:top;
+    background-repeat: no-repeat;
+  }
+
+.mainContainer{      /*Contenedor de toda la página web excepto la imagen de cabecera*/
+    width: 61%;
+    margin: auto;
+    height: 1280px;
+    background-color: #eeeeee;
+}
+
+.mainContainer ul li{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 8px;
+    width: 100%;
+}
+
+.mainContainer ul, h4{
+    display: flex;
+    margin-left: 5.5%;
+}
+
+.mainContainer h1, h3{
+    margin-left: 40px;
+    padding: 7px;
+}
+header{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    text-align: justify;
+    padding-left: 51px;
+    padding-right: 20px;
+}
+article{
+display: flex;
+padding-left: 51px;
+padding-right: 20px;
+text-align: justify;
+gap: 20px;
+}
+.articleImagen{
+width: 60%;
+}
+.articleTexto{
+    text-indent: 15px;
+width: 40%;
+}
+.imagen-centro{     /* Imagen del centro */
+    background-image: url(images/rosas.jpeg);
+    width: 60%;
+    height: 339px;
+    background-position:center;
+    background-repeat: no-repeat;
+  }
+  .imagen-centro h1{
+    
+    color: #eeeeee;
+    font-size: 50px;
+    text-align: center;
+  }
+  .imagen-centro h3{
+    padding-top: 60px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+  }
+  .imagen-centro h2{
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+  }
+.travelTechnologySports{
+    text-align: center;
+    display: flex;
+}
+.travel{
+    width: 33.3%;
+}
+.technology{
+    width: 33.3%;
+}
+.sports{
+    width: 30%;
+    border-radius: 30px;
+}
+.sports2{
+    display: flex;
+}
+.sportsDivision{
+    display: flex;
+}
+.division1{
+    width: 50%;
+}
+.division2{
+    width: 50%;
+}
+.division1 p{
+    text-align: justify;
+    hyphens: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.division2 img{
+    border-radius: 6%;
+}
+.travel p{
+text-align: justify;
+}
+.technology p{
+    text-align: justify;
+}
+.caricatura{
+    text-align: center;
+}
+.footer{
+    text-align: right;
+    margin-right: 35px;
+}
