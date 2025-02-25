@@ -177,7 +177,7 @@ section {
 }
 
 .teddyContainer{
-  background-color: rgb(131, 23, 23); #dddddd;
+  background-color: rgb(131, 23, 23);
   padding: 10px;
 }
 .teddyContainer h2{
@@ -195,4 +195,66 @@ section {
   text-align: center;
   margin: 5px;
 }
+table {
+  width: 100%;
+  border: 1px solid #000;
+  background-color: #dddddd;
+}
+th, td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 1px solid #000;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
 
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 10px solid rgb(131, 23, 23);
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.AlbumesTeddyTabla td img{
+  width: 60%;
+  margin-left: 21%;
+}
+
+.table{
+  width: 70%;
+  padding-left: 15%;
+}
+
+.encabezado{
+  text-align: center;
+}
+
+.encabezado td{
+  font-weight:bold;
+  text-align: center;
+}
+
+#tituloTabla{
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 21px;
+}
