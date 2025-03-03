@@ -1,0 +1,58 @@
+body{
+    display: flex;
+}
+.cuadrado{
+    margin-top: 300px;
+    margin-left: 200px;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    animation-direction: alternate;
+}
+.cuadrado:hover{
+    background-color: aqua;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.ej2{
+    display: inline;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+.pelota{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(59, 196, 59);
+    animation: change .7s ease-in-out infinite alternate;
+    animation-fill-mode: forwards;
+    box-shadow: 10px 10px 70px rgb(111, 111, 114);
+}
+
+.base{
+    height: 20px;
+    width: 200px;
+    background-color: rgb(99, 81, 97);
+    margin-top: -30px;
+}
+
+
+@keyframes change {
+    0% {
+      transform: scale(1, 0.7) translateY(0px);
+    }
+  
+    25% {
+      transform: scale(1, 1) translateY(-50px);
+    }
+  
+    50% {
+      transform: scale(1, 1) translateY(-100px);
+    }
+  
+    100% {
+        transform: scale(1, 1) translateY(-150px) ;
+    }
+  }
