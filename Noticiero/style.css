@@ -1,130 +1,339 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.imagen-cabecera{     /* Imagen de la cabecera */
-    background-image: url(images/cabecera.png);
-    width: 100%;
-    height: 228px;
-    background-position:top;
+.imagen-cabecera {
+  /* Imagen de la cabecera */
+  background-image: url(images/cabecera.png);
+  width: 100%;
+  height: 228px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.imagen-separacion {
+  background-image: url(images/lineahorizontal.png);
+  height: 10px;
+  width: 95%;
+}
+
+.mainContainer {
+  /*Contenedor de toda la página web*/
+  width: 61%;
+  margin: auto;
+  height: 1500px;
+  background-color: #eeeeee;
+}
+
+.mainContainer ul li {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 8px;
+  width: 100%;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  font-display: initial;
+}
+
+.mainContainer ul {
+  display: flex;
+  margin-left: 5.5%;
+}
+
+.mainContainer h1,
+h3 {
+  margin-left: 40px;
+  padding: 7px;
+}
+
+header {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  text-align: justify;
+  padding-left: 51px;
+  padding-right: 20px;
+}
+article {
+  display: flex;
+  padding-left: 51px;
+  padding-right: 20px;
+  text-align: justify;
+  gap: 20px;
+}
+.articleImagen {
+  width: 60%;
+}
+.articleTexto {
+  text-indent: 15px;
+  width: 40%;
+}
+.imagen-centro {
+  /* Imagen del centro */
+  background-image: url(images/rosas.jpeg);
+  width: 60%;
+  height: 339px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.imagen-centro h1 {
+  color: #eeeeee;
+  font-size: 50px;
+  text-align: center;
+}
+.imagen-centro h3 {
+  padding-top: 60px;
+  color: #eeeeee;
+  text-align: center;
+  font-size: 20px;
+}
+.imagen-centro h2 {
+  color: #eeeeee;
+  text-align: center;
+  font-size: 20px;
+}
+.travelTechnologySports {
+  text-align: center;
+  display: flex;
+}
+.travel {
+  width: 33.3%;
+}
+.imagetravel {
+  background-image: url(images/avion.jpeg);
+  width: 100%;
+  height: 198px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+.technology {
+  width: 33.3%;
+}
+.sports {
+  width: 30%;
+  border-radius: 30px;
+}
+.sports2 {
+  display: flex;
+}
+.sportsDivision {
+  display: flex;
+}
+.division1 {
+  width: 50%;
+}
+
+.barsaimagen{
+    background-image: url(images/sports.jpeg);
+    height: 250px;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-position: center;
+  }
+
+.division2 {
+  width: 50%;
+}
+.division1 p {
+  text-align: justify;
+  hyphens: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.division2 img {
+  border-radius: 6%;
+}
+.travel p {
+  text-align: justify;
+}
+.technology p {
+  text-align: justify;
+}
+.caricatura {
+  text-align: center;
+}
+.footer {
+  text-align: right;
+  margin-right: 35px;
+}
+
+@media (max-width: 700px) {
+  .imagen-cabecera {
+    /* Imagen de la cabecera */
+    background-image: url(images/caboscuro.png);
+    height: 100px;
+    background-position: top;
     background-repeat: no-repeat;
   }
 
-.mainContainer{      /*Contenedor de toda la página web excepto la imagen de cabecera*/
-    width: 61%;
-    margin: auto;
-    height: 1280px;
-    background-color: #eeeeee;
-}
+  .imagen-separacion {
+    background-image: url(images/lineahorizontaloscuro.png);
+    height: 15px;
+    width: 95%;
+    background-repeat: no-repeat;
+  }
 
-.mainContainer ul li{
+  .mainContainer {
+    width: 75%;
+    margin: auto;
+    height: 1920px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+  }
+  .titulo {
+    margin-left: 20px;
+  }
+
+  .mainContainer ul {
+    display: inline;
+    margin-left: 5.5%;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin-inline-start: 1px;
+    margin-inline-end: 2px;
+  }
+
+  .mainContainer ul li {
     list-style-type: none;
     overflow: hidden;
-    padding: 8px;
-    width: 100%;
-}
+    padding: 5px;
+  }
 
-.mainContainer ul, h4{
-    display: flex;
-    margin-left: 5.5%;
-}
+  a {
+    color: white;
+  }
 
-.mainContainer h1, h3{
-    margin-left: 40px;
-    padding: 7px;
-}
-header{
+  .mainContainer h1,
+  h3 {
+    margin-left: 30px;
+    padding: 5px;
+  }
+
+  header {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     padding: 10px;
     text-align: justify;
-    padding-left: 51px;
+    padding-left: 31px;
     padding-right: 20px;
-}
-article{
-display: flex;
-padding-left: 51px;
-padding-right: 20px;
-text-align: justify;
-gap: 20px;
-}
-.articleImagen{
-width: 60%;
-}
-.articleTexto{
-    text-indent: 15px;
-width: 40%;
-}
-.imagen-centro{     /* Imagen del centro */
-    background-image: url(images/rosas.jpeg);
-    width: 60%;
-    height: 339px;
-    background-position:center;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .parrafo1 {
+    display: none;
+  }
+
+  article {
+    margin-inline-start: 0px;
+    justify-items: center;
+  }
+
+  .mainContainer h1,
+  h3 {
+    margin-left: 3px;
+    padding: 7px;
+  }
+
+  .travelTechnologySports {
+    display: inline;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+  }
+  .travel {
+    width: 90%;
+    margin: auto;
+  }
+
+  .travel img {
+    background-image: url(images/avion.jpeg);
+    height: 100px;
+    width: 100px;
     background-repeat: no-repeat;
   }
-  .imagen-centro h1{
-    
-    color: #eeeeee;
-    font-size: 50px;
-    text-align: center;
+
+  .imagen-separacion {
+    background-image: url(images/lineahorizontaloscuro.png);
+    height: 15px;
+    width: 95%;
+    background-repeat: no-repeat;
   }
-  .imagen-centro h3{
-    padding-top: 60px;
-    color: #eeeeee;
-    text-align: center;
-    font-size: 20px;
+
+  .imagetravel {
+    background-image: url(images/avion.jpeg);
+    height: 120px;
+    border-radius: 20px;
+    background-position: center;
+    margin-top: 10px;
   }
-  .imagen-centro h2{
-    color: #eeeeee;
-    text-align: center;
-    font-size: 20px;
+  .technology {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
   }
-.travelTechnologySports{
-    text-align: center;
-    display: flex;
-}
-.travel{
-    width: 33.3%;
-}
-.technology{
-    width: 33.3%;
-}
-.sports{
+  .technology img {
+    width: 49%;
+    border-radius: 20px;
+  }
+  #technology{
+    font-size: 18px;
+  }
+  .sportsDivision {
+    width: 90%;
+    margin: auto;
+  }
+  .division1 {
     width: 30%;
+  }
+
+  .division2 {
+    width: 70%;
+  }
+
+  .sports {
+    width: 100%;
+    margin: auto;
     border-radius: 30px;
-}
-.sports2{
+  }
+  #barsa1 {
     display: flex;
-}
-.sportsDivision{
-    display: flex;
-}
-.division1{
-    width: 50%;
-}
-.division2{
-    width: 50%;
-}
-.division1 p{
-    text-align: justify;
-    hyphens: auto;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-.division2 img{
-    border-radius: 6%;
-}
-.travel p{
-text-align: justify;
-}
-.technology p{
-    text-align: justify;
-}
-.caricatura{
-    text-align: center;
-}
-.footer{
-    text-align: right;
-    margin-right: 35px;
+  }
+  .barsaimagen{
+    background-image: url(images/barsarm.png);
+    height: 80%;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    border-radius: 30px;
+  }
+  #mafalda{
+    font-size: 20px;
+  }
+  #mafalda1{
+    width: 90%;
+  }
+
+  #linea {
+    display: none;
+  }
+
+  #mafalda2{
+    border-top: 10px;
+    width: 90%;
+  }
 }
