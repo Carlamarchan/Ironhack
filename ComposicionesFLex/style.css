@@ -1,0 +1,223 @@
+/* PRIMERA COMPOSICIÓN */
+.caso1{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border: solid 5px red;
+    /* align-items: center; */
+}
+.caso11{
+    height: 500px;
+    display: flex;
+    width: 50%;
+    background-color: aqua;
+    align-items: stretch;
+}
+
+.caso11 div{
+    width: 10%;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    margin:1px;
+}
+
+.uno{
+    background-color: rgb(10, 160, 115);
+}
+.dos{
+    background-color: rgb(3, 126, 175);
+}
+.tres{
+    background-color: rgb(126, 3, 175);
+}
+.cuatro{
+    background-color: rgb(43, 50, 53);
+}
+.cinco{
+    background-color: rgb(250, 220, 51);
+}
+.seis{
+    background-color: rgb(204, 113, 9);
+}
+.siete{
+    background-color: rgb(184, 19, 19);
+}
+.ocho{
+    background-color: rgb(177, 177, 177);
+}
+.nueve{
+    background-color: rgb(23, 245, 108);
+}
+.diez{
+    background-color: rgb(0, 143, 112);
+}
+
+/* SEGUNDA COMPOSICIÓN */
+
+.caso2{
+    width: 70%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.caso2 p{
+    margin-top: 7px;    
+}
+
+.unos{
+    background-color: rgb(10, 160, 115);
+    height: 60px;
+    width: 33.3%;
+}
+.doss{
+    background-color: rgb(3, 126, 175);
+    height: 60px;
+    width: 33.3%;
+}
+.tress{
+    background-color: rgb(126, 3, 175);
+    height: 60px;
+    width: 33.3%;
+}
+.cuatros{
+    background-color: rgb(43, 50, 53);
+    height: 60px;
+    width: 33.3%;
+}
+.cincos{
+    background-color: rgb(250, 220, 51);
+    height: 60px;
+    width: 33.3%;
+}
+.seiss{
+    background-color: rgb(204, 113, 9);
+    height: 60px;
+    width: 33.3%;
+}
+.sietes{
+    background-color: rgb(184, 19, 19);
+    height: 60px;
+    width: 33.3%;
+}
+.ochos{
+    background-color: rgb(177, 177, 177);
+    height: 60px;
+    width: 33.3%;
+}
+.nueves{
+    background-color: rgb(23, 245, 108);
+    height: 60px;
+    width: 33.3%;
+}
+.diezs{
+    background-color: rgb(0, 143, 112);
+    height: 60px;
+    width: 33.3%;
+}
+
+/* TERCERA COMPOSICIÓN */
+
+.caso3{
+    width: 70%;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border: solid 5px rgb(214, 194, 15);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.caso3 p{
+    margin-top: 15px;    
+}
+
+.unoss{
+    background-color: rgb(10, 160, 115);
+    width: 10%;
+    height: 15%;
+}
+.dosss{
+    background-color: rgb(3, 126, 175);
+    width: 10%;
+}
+.tresss{
+    background-color: rgb(126, 3, 175);
+    width: 10%;
+    height: 15%;
+}
+.cuatross{
+    background-color: rgb(43, 50, 53);
+    width: 10%;
+    height: 15%;
+}
+.cincoss{
+    background-color: rgb(250, 220, 51);
+    width: 10%;
+    height: 15%;
+}
+.seisss{
+    background-color: rgb(204, 113, 9);
+    width: 10%;
+    height: 15%;
+    align-self: center;
+}
+.sietess{
+    background-color: rgb(184, 19, 19);
+    width: 10%;
+    height: 15%;
+}
+.ochoss{
+    background-color: rgb(177, 177, 177);
+    width: 10%;
+    height: 15%;
+}
+.nuevess{
+    background-color: rgb(23, 245, 108);
+    width: 10%;
+    height: 15%;
+    align-self: flex-end;
+}
+.diezss{
+    background-color: rgb(0, 143, 112);
+    width: 10%;
+    height: 15%;
+}
+
+
+
+
+/* 
+div{
+    width: 20%;
+    background-color: blueviolet;
+    border: 2px solid black;
+} */
+
+/* .container :nth-child(3){
+    background-color: aqua;
+    align-self: flex-end;
+} */
+
+/* .container :nth-child(4){
+    margin-right:auto;
+    background-color: brown;
+} */
+
+/* .container :nth-child(1){
+    flex-grow: 3;
+} */
+/* .container :nth-child(3){
+    flex-grow: 2;
+} */
