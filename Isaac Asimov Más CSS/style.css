@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Indie+Flower&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+.cabecera{
+    display: flex;
+    width: 81%;
+    height: 200px;
+    background-color: rgb(71, 5, 5);
+    margin: auto;
+    justify-content:center;
+}
+.cabecera h1{
+    color: rgb(175, 191, 206);
+}
+
+.container{
+    margin: auto;
+    height: 35vw;
+    width: 80%;
+    background-color: rgb(175, 191, 206);
+    padding: 8px;
+    gap:20px;
+}
+
+.autor{
+    display: flex;
+    height: 35vw;
+    width: 80%;
+    background-color: rgb(175, 191, 206);
+    padding: 8px;
+    gap:20px;
+}
+
+.imagen{
+    background-image: url(images/asimov.jpeg);
+    width: 30%;
+    height: inherit;
+    background-size: cover;
+    background-position: top;
+    border-radius: 20px;
+    margin-left: 10px;
+    
+}
+article{
+    width: 65%;
+    padding: 20px;
+    /* overflow: hidden;  Esto es para que no puedas ver el texto que sobresale de la caja*/
+    overflow: auto;    /*Esto me pone una barra para desplazar si el texto se sale del div*/
+}
+
+article h1{
+    margin-top: 1px;
+
+}
+
+blockquote{
+    font-family: "Playwrite IT Moderna", cursive;
+    color: rgb(71, 5, 5);
+    font-size: 20px;
+    border-left: 3px solid rgb(68, 13, 13);
+    padding-left: 10px;
+    text-align: center;
+}
+
+h1{
+    font-family:"Big Shoulders Stencil", sans-serif;
+    font-size: 70px;
+    color: rgb(65, 11, 11);
+}
+
+.robot{
+    width: 70px;
+}
+
+p{
+    line-height: 28px;
+    font-size: 20sspx;
+    text-align: justify;
+}
+.primeraley{
+    height: 100px;
+    background-color: brown;
+    width: 200px;
+}
+
+
