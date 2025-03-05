@@ -1,32 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Indie+Flower&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
-.cabecera{
-    display: flex;
-    width: 81%;
-    height: 200px;
-    background-color: rgb(71, 5, 5);
-    margin: auto;
-    justify-content:center;
-}
-.cabecera h1{
-    color: rgb(175, 191, 206);
-}
 
 .container{
-    margin: auto;
-    height: 35vw;
     width: 80%;
+    margin: auto;
     background-color: rgb(175, 191, 206);
-    padding: 8px;
-    gap:20px;
+    padding: 0px;
+}
+
+.cabecera{
+    display: flex;
+    background-color: rgb(71, 5, 5);
+    width: 100%;
+    justify-content: center;
+}
+
+.cabecera h1{
+    margin-top: 60px;
+    color: rgb(175, 191, 206);
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 70px;
+}
+
+.info{
+    width: 90%;
+    margin: auto;
 }
 
 .autor{
     display: flex;
-    height: 35vw;
-    width: 80%;
+    height: 25vw;
     background-color: rgb(175, 191, 206);
-    padding: 8px;
+    padding-top: 15px;
     gap:20px;
 }
 
@@ -37,7 +42,6 @@
     background-size: cover;
     background-position: top;
     border-radius: 20px;
-    margin-left: 10px;
     
 }
 article{
@@ -48,8 +52,19 @@ article{
 }
 
 article h1{
-    margin-top: 1px;
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: rgb(71, 5, 5);
+}
 
+article p{
+
+    line-height: 28px;
+    font-size: 20sspx;
+    text-align: justify;
 }
 
 blockquote{
@@ -61,25 +76,80 @@ blockquote{
     text-align: center;
 }
 
-h1{
-    font-family:"Big Shoulders Stencil", sans-serif;
-    font-size: 70px;
-    color: rgb(65, 11, 11);
-}
-
-.robot{
+#robot{
     width: 70px;
 }
 
-p{
-    line-height: 28px;
-    font-size: 20sspx;
-    text-align: justify;
+.leyes{
+    padding-top: 15px;
+    display: flex;
+    margin: auto;
+    text-align: center;
 }
-.primeraley{
-    height: 100px;
-    background-color: brown;
-    width: 200px;
+
+.leyes h1{
+    color: rgb(175, 191, 206);
+    font-family: "Big Shoulders Stencil", sans-serif;
+    font-size: 30px;
+    /* margin-top: 5px; */
+}
+
+.leyes p{
+    color: rgb(175, 191, 206);
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.contenedorLey img{
+    height: 15vw;
+    background-size: cover; 
+    background-position: top;
+}
+
+.ley1{
+    border-radius: 20px;
+    width: 33%;
+    background-color: rgb(71, 5, 5);
+    margin-right: 10px;
 }
 
 
+.ley2{
+    border-radius: 20px;
+    width: 33%;
+    background-color: rgb(71, 5, 5);
+    margin-right: 10px;
+}
+
+.ley3{
+    border-radius: 20px;
+    width: 33%;
+    background-color: rgb(71, 5, 5);
+}
+
+.descarga{
+    width: 90%;
+    background-color: rgb(71, 5, 5);
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+    margin: auto;
+}
+
+.descarga p{
+    color: rgb(175, 191, 206);
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+}
+
+details{
+    color:rgb(175, 191, 206);
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+details a{
+    color: rgb(175, 191, 206);;
+}
