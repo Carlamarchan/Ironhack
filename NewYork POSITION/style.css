@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Bungee+Inline&family=Eagle+Lake&family=Indie+Flower&family=Kumar+One+Outline&family=Metal+Mania&family=Playwrite+IT+Moderna:wght@100..400&family=Style+Script&display=swap");
+* {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#nygif{
+  position: fixed;
+  bottom: 0px;
+}
+
+#nygif2{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  transform: scaleX(-1);
+}
+
+#trump{
+  position: fixed;
+  bottom: 50px;
+  right: 80px;
+}
+
+.container {
+  /*Background Z-2*/
+  background-color: rgb(223, 111, 83);
+  width: 60%;
+  position: absolute; 
+  z-index: -2;
+  left: 20vw;
+}
+
+.encabezado {
+  left: 10%;
+}
+
+.encabezado img {
+  /*Imagen Z-1*/
+  position: absolute;
+  z-index: -1;
+  height: 577px;
+  width: 100%;
+}
+
+.titulo h1 {
+  padding-top: 10px;
+  font-family: "Kumar One Outline", system-ui;
+  font-size: 80px;
+  color: white;
+  opacity: 70%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.titulo h2 {
+  font-family: "Kumar One Outline", system-ui;
+  font-size: 40px;
+  color: white;
+  opacity: 70%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.avion {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  animation: vuela 5s infinite linear;
+}
+
+.menu {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+.menu a {
+  color: azure;
+}
+
+a:hover{
+  color: brown;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-family: Big Shoulders Stencil;
+  font-size: 25px;
+  color: white;
+  background-color: rgb(223, 111, 83);
+  padding: 23px;
+}
+
+.informacion {
+  background-color: rgb(223, 111, 83);
+  width: 95%;
+  margin: auto;
+}
+
+.informacion h1 {
+  font-family: Big Shoulders Stencil;
+  font-size: 40px;
+  color: aliceblue;
+  padding: 15px;
+  text-align: center;
+}
+
+.infoBridge {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+#Brooklynimage:hover{
+scale:1.2;
+transition: 1s;
+}
+
+.infoBridge img {
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+.tituloytexto {
+  align-items: center;
+  color: azure;
+  font-size: 18px;
+  text-align: justify;
+  background-color: rgb(73, 73, 73);
+  border-radius: 20px;
+  line-height: 35px;
+  padding: 20px;
+}
+
+.infoStatue {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.infoStatue img {
+  border-radius: 20px;
+  margin-right: 15px;
+}
+
+#Statueimage:hover{
+  scale:1.2;
+  transition: 1s;
+  }
+
+.infoCentral {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.infoCentral img {
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+#Parknimage:hover{
+  scale:1.2;
+  transition: 1s;
+  }
+
+.infoTime{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.infoTime img {
+  border-radius: 20px;
+  margin-right: 15px;
+}
+
+#Squareimage:hover{
+  scale:1.2;
+  transition: 1s;
+  }
+
+.infoempire{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.infoempire img {
+  border-radius: 20px;
+  margin-left: 15px;
+}
+
+#Empireimage:hover{
+  scale:1.2;
+  transition: 1s;
+  }
+
+.footer{
+  background-color: rgb(223, 111, 83);
+  position: fixed;
+  width: 59%;
+  top: 850px;
+  left: 20.2vw;
+  margin-bottom: 0px;
+  margin-top:50px ;
+}
+
+.footer p{
+  text-align: center;
+  margin-top: 10px;
+  font-family: Big Shoulders Stencil;
+  font-size: 30px;
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+
+@keyframes vuela {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  20% {
+    transform: translateX(360px) translateY(50px);
+  }
+  40% {
+    transform: translateX(720px) translateY(0px);
+  }
+  60% {
+    transform: translateX(1080px) translateY(-50px);
+  }
+  80% {
+    transform: translateX(1440px) translateY(0px);
+  }
+  100% {
+    transform: translateX(1800px) translateY(50px);
+  }
+}
