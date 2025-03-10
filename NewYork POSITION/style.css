@@ -4,6 +4,10 @@
   margin-left: 0px;
 }
 
+body{
+overflow-x:hidden;
+}
+
 #nygif{
   position: fixed;
   bottom: 0px;

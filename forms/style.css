@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Bungee+Inline&family=Eagle+Lake&family=Indie+Flower&family=Kumar+One+Outline&family=Metal+Mania&family=Playwrite+IT+Moderna:wght@100..400&family=Style+Script&display=swap');
+form{
+
+    display:flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    background-color: rgb(20, 94, 94);
+    padding: 15px;
+    color:white;
+    border-radius: 20px;
+    box-shadow: 15px 15px 3px rgb(215, 218, 219);
+}
+
+input, textarea,button{
+    margin-bottom: 15px;
+}
+
+input{
+    
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type="text"]{
+    background-color: rgb(185, 215, 219);
+}
+
+label{
+    font-family: "Style Script", cursive;
+    font-size: 30px;
+}
+
+textarea{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+button{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
