@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Bungee+Inline&family=Delius+Unicase:wght@400;700&family=Eagle+Lake&family=Indie+Flower&family=Kumar+One+Outline&family=Metal+Mania&family=Playwrite+IT+Moderna:wght@100..400&family=Style+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 960px;
+    background-color: rgb(214, 223, 215);
+    margin: auto;
+}
+
+.imagen{
+    display: flex;
+    width: 35%;
+    background-image: url(images/pizza5.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+
+.imagen h1{
+    font-family: "Atma", system-ui;
+    font-size: 100px;
+    color: white;
+    opacity: 70%;
+    text-align: center;
+}
+
+.pedido{
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+}
+
+#Pepone{
+    color: whitesmoke;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.pedido h1{
+    font-family: "Playwrite IT Moderna", cursive;
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(116, 29, 29);
+}
+.tituloPrincipal{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.tituloPrincipal h2{
+    font-family: "Playwrite IT Moderna", cursive;
+    font-size: 25px;
+    margin-top: 53px;
+    margin-left: 15px;
+    text-align: center;
+    color: rgb(105, 99, 99);
+    margin-bottom: 20px;
+}
+
+form{
+    background-color:  rgb(116, 29, 29);
+    box-shadow: 7px 7px 10px rgb(116, 118, 119);
+    color: white;
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 20px;
+    width: 60%;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.ClaveValor{
+    display:flex;
+    flex-direction: column;
+}
+
+fieldset{
+    padding: 12px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+input, select, textarea{
+    margin-bottom: 10px;
+    border-top: seashell
+}
+
+label{
+    padding-bottom: 5px;
+}
+
+.ingredientes{
+    display: flex;
+    background-color: rgb(171, 174, 177,0.4);
+    border-radius: 10px;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+
+/* PÁGINA DE RECIBIDO */
+
+.respuesta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.mensaje h1{
+    font-family: "Playwrite IT Moderna", cursive;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(116, 29, 29);
+}
+
+.imagenRecibido{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+
+}
+
+.EnlaceFormulario h3{
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    background-color: rgb(116, 29, 29);
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.EnlaceFormulario a{
+    color: white;
+}
+
+
+/*
+ .formcss{
+    display: flex;
+    justify-content: center;
+}
+/*
+
+
+.extras{
+    display: block;
+}
+
+.Queso, .Jamon, .Aceitunas, .Salami, .Champiñones{
+    display: block;
+    width: 40%;
+    margin-left: 41%;
+}
+
+label{
+    display: inline-block;
+    width: 40%;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+textarea{
+    background-color: rgb(255, 255, 255);
+    width: 55%;
+    resize: none;
+}
+
+.Botones{
+    text-align: center;
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+}
+ */
+

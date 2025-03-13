@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="imagen">
+        <h1>Pizzeria Pepone</h1>
+      </div>
+      <div class="pedido">
+        <div class="tituloPrincipal">
+          <h1 class="titulo">Pedimos una?</h1>
+          <h2>(mejor que sean 2)</h2>
+        </div>
+
+        <div class="formcss">
+          <form action="Recibido.html" method="get">
+            <h1 id="Pepone">Pizzeria Pepone</h1>
+            <form action="index.html" method="get">
+
+              <fieldset>
+                <legend>Información personal</legend>
+                <div class="ClaveValor">
+                  <!-- Primera línea del formulario -->
+                  <label for="titulo">Título:</label>
+                  <select name="titulo" id="titulo">
+                    <option value="señor">Señor</option>
+                    <option value="señora">Señora</option>
+                    <option value="señorita">Señorita</option>
+                    <option value="otro">Otro</option>
+                  </select>
+                </div>
+                <!-- Segunda línea del formulario -->
+                <div class="ClaveValor">
+                  <label for="nombre">Nombre: *</label>
+                  <input
+                    type="text"
+                    placeholder="Tu nombre aquí (Este campo es obligatorio)"
+                    id="nombre"
+                    name="nombre"
+                  />
+
+                  <!-- Tercera línea del formulario -->
+                </div>
+                <div class="ClaveValor">
+                  <label for="nombre">Apellido:</label>
+                  <input
+                    type="text"
+                    placeholder="Tu apellido aquí"
+                    id="apellido"
+                    name="apellido"
+                  />
+                </div>
+
+                <div class="ClaveValor">
+                  <!-- Cuarta línea del formulario -->
+                  <label for="telefono">Teléfono: *</label>
+                  <input
+                    type="tel"
+                    placeholder="Tu teléfono aquí (Este campo es obligatorio)"
+                    id="telefono"
+                    name="telefono"
+                  />
+                </div>
+              </fieldset>
+              <br />
+
+              <fieldset>
+                <legend>Personaliza tu pizza</legend>
+  
+                <div class="ClaveValor">
+                  <!-- Cuarta línea del formulario -->
+                  <label for="tipoPizza">Escoje la pizza:</label>
+                  <select name="tipoPizza" id="tipoPizza">
+                    <option value="Cuatro">Quattro Stagioni</option>
+                    <option value="diavola">Diavola</option>
+                    <option value="Parmigiana">Parmigiana</option>
+                    <option value="Margherita">Margherita</option>
+                    <option value="Vegetariana">Vegetariana</option>
+                  </select>
+                </div>
+  
+                <div class="ClaveValor">
+                  <label for="extras">Seleccione los ingredientes extras: </label>
+
+                  <div class="ingredientes">
+                    <div class="Queso">
+                      <input type="checkbox" name="queso" id="queso" value="Si" />
+                      <label for="queso">Queso</label>
+                    </div>
+    
+                    <div class="Jamon">
+                      <input type="checkbox" name="jamon" id="jamon" value="Si" />
+                      <label for="jamon">Jamón</label>
+                    </div>
+    
+                    <div class="Aceitunas">
+                      <input
+                        type="checkbox"
+                        name="aceitunas"
+                        id="aceitunas"
+                        value="Si"
+                      />
+                      <label for="aceitunas">Aceitunas</label>
+                    </div>
+    
+                    <div class="Salami">
+                      <input type="checkbox" name="salami" id="salami" value="Si" />
+                      <label for="salami">Salami</label>
+                    </div>
+    
+                    <div class="Champiñones">
+                      <input
+                        type="checkbox"
+                        name="champiñones"
+                        id="champiñones"
+                        value="Si"
+                      />
+                      <label for="champiñones">Champiñones</label>
+                    </div>
+                  </div>
+
+                  </div>
+  
+                 
+              </fieldset>
+              <br />
+
+              <fieldset>
+                <legend>Forma de envio y comentarios</legend>
+  
+                <div class="ClaveValor">
+                  <label for="coment"
+                    >Podemos mejorar tu experiencia! Escribe tu sugerencia:</label
+                  >
+                  <textarea
+                    name="coment"
+                    id="coment"
+                    maxlength="150 charset"
+                  ></textarea>
+                </div>
+  
+                <div class="ClaveValor">
+                  <label for="">Forma de envío:</label>
+  
+                  <div class="tienda">
+                    <input
+                      type="radio"
+                      name="envio"
+                      id="restaurante"
+                      value="restaurante"
+                    />
+                    <label for="tienda">Recoger en el restaurante</label>
+                  </div>
+  
+                  <div class="casa">
+                    <input type="radio" name="envio" id="casa" value="casa" />
+                    <label for="casa">Enviar a casa</label>
+                  </div>
+                </div>
+              </fieldset>
+              <br />
+              <div class="Botones">
+                <button type="reset">Borrar todo</button>
+                <button type="submit">Enviar Formulario</button>
+              </div>
+
+            </form>        
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
