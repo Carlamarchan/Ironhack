@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sonic Cars</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cabecera">
+        <div><h1>SONIC CARS</h1></div>
+      </div>
+      <div class="images">
+        <img src="images/coche1.jpeg" alt="" width="16.6%" height="200px" />
+        <img src="images/coche2.jpeg" alt="" width="16.65%" height="200px" />
+        <img src="images/coche3.jpeg" alt="" width="16.7%" height="200px" />
+        <img src="images/coche4.jpeg" alt="" width="16.7%" height="200px" />
+        <img src="images/coche5.jpeg" alt="" width="16.7%" height="200px" />
+        <img src="images/colche6.jpeg" alt="" width="16.7%" height="200px" />
+      </div>
+
+      <div class="menu">
+        <ul>
+          <li><a href="#About">About Us</a></li>
+          <li><a href="#Sale">Cars for sale</a></li>
+          <li><a href="#Contact">Contact with Us</a></li>
+        </ul>
+      </div>
+
+      <div class="info">
+        <div class="imagenCoche"></div>
+        <article>
+          <h1 id="About">ABOUT US...</h1>
+          <p>
+            En la actualidad, existen diversas organizaciones que invierten en
+            este modelo de transporte, La startup "SONIC CARS" pretende operar
+            vehículos que despeguen verticalmente como helicópteros, y que
+            tengan una autonomía de más de 150 kilómetros. Este proyecto tiene
+            pensado formalizarse en 2025, y aspira a ser un primer indicio de un
+            automóvil volador como tal.
+          </p>
+          <br />
+
+          <blockquote>
+            <b>Automóvil volador </b>es un nombre genérico que se da a todo
+            vehículo de uso doméstico que sea capaz de transportar personas
+            tanto volando como circulando por tierra.
+          </blockquote>
+          <br />
+
+          <p>
+            A fines de siglo XX se han realizado varios diseños y prototipos de
+            automóviles voladores impulsados mediante hélices, aunque en lo
+            concreto tales diseños no son sino avionetas de alas cortas dotadas
+            de cuatro o más pares de hélices (y respectivos motores a
+            combustión), los diseños más avanzados permiten un despegue VTOL
+            (vertical) gracias a que las hélices pueden variar su inclinación al
+            menos 90° pasando de verticales (para el despegue) a horizontales
+            (para el desplazamiento de navegación); aunque tales automóviles son
+            altamente acrobáticos tampoco llegan a ser prácticos, es decir,
+            tampoco reúnen el mínimo de requisitos como para considerárseles
+            automóviles ya que mantienen los inconvenientes existentes en los
+            aerodeslizadores, dentro de esta categoría de automóviles voladores,
+            es decir, manteniendo el carácter híbrido de avión y automóvil.
+          </p>
+          <br />
+          <p>
+            Además, es importante resaltar lo que el CEO de esta empresa, Jim
+            Dukhovny dice sobre su vehículo: el coche está diseñado para pasar
+            la mayor parte del tiempo en las carreteras, y su limitada capacidad
+            para volar servirá precisamente para sortear obstáculos.
+          </p>
+
+          <br />
+        </article>
+      </div>
+
+      <!-- Coches a la venta con flexbox -->
+
+      <div class="containerForSale">
+        <h1 id="Sale">CARS FOR SALE</h1>
+        <div class="carsForSale">
+          <div class="card">
+            <div class="imagenVenta"><img src="images/coche4.jpeg" /></div>
+            <div class="perso">Modelo Alpha</div>
+            <div class="descripcion">300.000 €</div>
+          </div>
+
+          <div class="card">
+            <div class="imagenVenta"><img src="images/coche2.jpeg" /></div>
+            <div class="perso">Modelo Betha</div>
+            <div class="descripcion">350.000 €</div>
+          </div>
+
+          <div class="card">
+            <div class="imagenVenta"><img src="images/coche3.jpeg" /></div>
+            <div class="perso">Modelo Gamma</div>
+            <div class="descripcion">400.000 €</div>
+          </div>
+
+          <div class="card">
+            <div class="imagenVenta"><img src="images/coche1.jpeg" /></div>
+            <div class="perso">Modelo Delta</div>
+            <div class="descripcion">430.000 €</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <form
+          action="https://formsubmit.co/carlamarchan93@gmail.com"
+          method="post"
+        >
+          <h1 id="Contact">Contacta con nosotros!</h1>
+          <div class="contenedorGrupos">
+            <div class="primerGrupo">
+              <!-- Primer grupo del formulario -->
+              <fieldset>
+                <legend>Información personal</legend>
+                <div class="ClaveValor">
+                  <label for="titulo">Tratamiento:</label>
+                  <select name="titulo" id="titulo">
+                    <option value="señor">Señor</option>
+                    <option value="señora">Señora</option>
+                    <option value="señorita">Señorita</option>
+                    <option value="otro">Otro</option>
+                  </select>
+                </div>
+                <div class="ClaveValor">
+                  <label for="nombre">Nombre: *</label>
+                  <input
+                    type="text"
+                    placeholder="Tu nombre aquí (Este campo es obligatorio)"
+                    id="nombre"
+                    name="nombre"
+                    required
+                  />
+
+                </div>
+                <div class="ClaveValor">
+                  <label for="nombre">Apellido: *</label>
+                  <input
+                    type="text"
+                    placeholder="Tu apellido aquí (Este campo es obligatorio)"
+                    id="apellido"
+                    name="apellido"
+                    required
+                  />
+                </div>
+
+                <div class="ClaveValor">
+                  <label for="telefono">Teléfono: *</label>
+                  <input
+                    type="tel"
+                    placeholder="Tu teléfono aquí (Este campo es obligatorio)"
+                    id="telefono"
+                    name="telefono"
+                    required
+                  />
+                </div>
+              </fieldset>
+              <br />
+            </div>
+
+            <div class="tercerGrupo">
+              <!-- Tercer grupo del formulario -->
+              <fieldset>
+                <legend>Comentarios</legend>
+
+                <div class="ClaveValor">
+                  <label for="coment"
+                    >Podemos mejorar tu experiencia! Escribe tu
+                    sugerencia:</label
+                  >
+                  <textarea
+                    name="coment"
+                    id="coment"
+                    maxlength="150 charset"
+                  ></textarea>
+                </div>
+              </fieldset>
+              <br />
+            </div>
+
+            <div class="segundoGrupo">
+              <!-- Segundo grupo del formulario -->
+
+              <fieldset>
+                <legend>Personaliza tu coche</legend>
+
+                <div class="ClaveValor">
+                  <label for="colorCoche">Color:</label>
+                  <select name="colorCoche" id="colorCoche">
+                    <option value="Rojo">Rojo</option>
+                    <option value="Negro">Negro</option>
+                    <option value="Blanco">Blanco</option>
+                    <option value="Gris">Gris</option>
+                    <option value="Verde">Verde</option>
+                  </select>
+                </div>
+
+                <div class="ClaveValor">
+                  <label for="extras"
+                    >Seleccione los extras que deseas:
+                  </label>
+
+                  <div class="extras">
+                    <div class="Asientos de cuero">
+                      <input
+                        type="checkbox"
+                        name="asiento"
+                        id="asiento"
+                        value="Si"
+                      />
+                      <label for="asiento">Asientos de cuero</label>
+                    </div>
+
+                    <div class="PantallaGrande">
+                      <input
+                        type="checkbox"
+                        name="PantallaGrande"
+                        id="PantallaGrande"
+                        value="Si"
+                      />
+                      <label for="PantallaGrande">Pantalla de 20 pulgadas</label>
+                    </div>
+
+                    <div class="Alas de mariposa">
+                      <input
+                        type="checkbox"
+                        name="Alas"
+                        id="Alas"
+                        value="Si"
+                      />
+                      <label for="Alas">Alas de mariposa</label>
+                    </div>
+
+                    <div class="Llantas monocromáticas">
+                      <input
+                        type="checkbox"
+                        name="Llantas"
+                        id="Llantas"
+                        value="Si"
+                      />
+                      <label for="Llantas">Llantas monocromáticas</label>
+                    </div>
+
+                    <div class="Techo de cristal">
+                      <input
+                        type="checkbox"
+                        name="Techo"
+                        id="Techo"
+                        value="Si"
+                      />
+                      <label for="Techo">Techo de cristal</label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <br />
+            </div>
+
+            <div class="cuartoGrupo">
+              <!-- Tercer grupo del formulario -->
+              <fieldset>
+                <legend>Forma de envio</legend>
+                <div class="ClaveValor">
+                  <label for="tipoPizza">Escoje la forma de envío:</label>
+                  <div class="tienda">
+                    <input
+                      type="radio"
+                      name="envio"
+                      id="restaurante"
+                      value="restaurante"
+                    />
+                    <label for="tienda">Recoger en el restaurante</label>
+                  </div>
+
+                  <div class="casa">
+                    <input type="radio" name="envio" id="casa" value="casa" />
+                    <label for="casa">Enviar a casa</label>
+                  </div>
+                </div>
+              </fieldset>
+              <br />
+            </div>
+          </div>
+
+          <div class="Botones">
+            <button type="reset">Borrar todo</button>
+            <button type="submit">Enviar Formulario</button>
+          </div>
+        </form>
+      </div>
+      a
+    </div>
+  </body>
+</html>

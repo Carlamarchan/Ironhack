@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Indie+Flower&family=Playwrite+IT+Moderna:wght@100..400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  padding: 0px;
+}
+
+.cabecera {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  justify-content: center;
+  height: 220px;
+}
+
+.images img:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+.cabecera h1 {
+  margin-top: 60px;
+  color: rgb(175, 191, 206);
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-size: 90px;
+}
+
+.images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.images img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+  position: absolute;
+}
+
+.menu{
+    position: sticky;
+    top:0px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: rgb(0, 0, 0);
+  padding: 30px;
+
+}
+
+.menu ul a {
+  color: rgb(175, 191, 206);
+  font-size: 20px;
+  margin: 15px;
+}
+
+.info {
+  width: 90%;
+  display: flex;
+  height: 25vw;
+  background-color: rgb(175, 191, 206);
+  gap: 20px;
+  padding: 25px solid rgb(2, 2, 2);
+  border: 5%;
+  margin: auto;
+  border-radius: 18px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.imagenCoche {
+  background-image: url(images/coche7.jpeg);
+  width: 40%;
+  height: inherit;
+  background-size: cover;
+  background-position: top;
+  border-radius: 20px;
+}
+
+.imagenCoche:hover {
+  background-image: url(images/propietarios.jpeg);
+  transition: 1s;
+  transform: rotateY(180deg);
+}
+
+article {
+  width: 60%;
+  padding: 20px;
+  /* overflow: hidden;  Esto es para que no puedas ver el texto que sobresale de la caja*/
+  overflow: auto; /*Esto me pone una barra para desplazar si el texto se sale del div*/
+}
+
+article h1 {
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  color: rgb(39, 39, 39);
+}
+
+article p {
+  line-height: 28px;
+  font-size: 18px;
+  text-align: justify;
+}
+
+blockquote {
+  font-family: "Playwrite IT Moderna", cursive;
+  color: rgb(39, 39, 39);
+  font-size: 20px;
+  border-left: 3px solid rgb(68, 13, 13);
+  padding-left: 10px;
+  text-align: center;
+}
+
+.coches {
+  padding-top: 15px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+}
+
+.coches h1 {
+  color: rgb(175, 191, 206);
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-size: 30px;
+  /* margin-top: 5px; */
+}
+
+.coches p {
+  color: rgb(175, 191, 206);
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.contenedorCoche img {
+  height: 15vw;
+  background-size: cover;
+  background-position: top;
+}
+
+.containerForSale {
+  width: 90%;
+  background-color: rgb(175, 191, 206);
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  margin: auto;
+  padding-top: 30px;
+  
+}
+.containerForSale h1 {
+  color: rgb(39, 39, 39);
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.carsForSale {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(3, 3, 3);
+  border-radius: 10px;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 3px 3px 9px rgb(43, 33, 43);
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  scale: 1.1; /*Scale 1 es igual, más de uno es más grande y menos de uno es más pequeña */
+  /* rotate: 10deg;       deg en grados */
+  transform: scale(1.1);
+  transition: 0.5s; /*s en segundos*/
+  box-shadow: 0px 0px 70px rgb(180, 168, 97); /*desplazamiento horixontal/ vertical/ difusión de color*/
+}
+
+/*Carta del personaje*/
+.imagenVenta img {
+  width: 250px;
+  height: 210px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px;
+}
+
+.perso {
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(243, 237, 241);
+  margin: 4px 0;
+  margin-top: 15px;
+}
+.descripcion {
+  font-family: "Big Shoulders Stencil", sans-serif;
+  font-size: 21px;
+  padding: 5px;
+  text-align: center;
+}
+
+form {
+    background-color: rgb(175, 191, 206);
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    padding: 15px;
+    border-radius: 20px;
+    width: 88%;
+    margin: auto;
+    overflow: auto;
+    margin-bottom: 30px;
+  }
+
+  form h1{
+    font-family: "Big Shoulders Stencil", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .contenedorGrupos {
+    display: grid;
+    grid-template-areas:
+      "info comentario"
+      "coche comentario"
+      "coche envio";
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+  }
+
+  .contenedorGrupos > div.primerGrupo {
+    grid-area: info;
+  }
+  
+  .contenedorGrupos > div.tercerGrupo {
+    grid-area: comentario;
+  }
+  
+  .contenedorGrupos > div.segundoGrupo {
+    grid-area: coche;
+  }
+  
+  .contenedorGrupos > div.cuartoGrupo {
+    grid-area: envio;
+  }
+  
+  .ClaveValor {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  fieldset {
+    padding: 12px;
+    border-radius: 10px;
+  }
+  
+  input,
+  select,
+  textarea {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 10vw;
+    resize: none;
+    border-radius: 15px;
+    opacity: 0.8;
+  }
+  
+  input[radio] {
+    margin-top: 5px;
+  }
+  
+  label {
+    padding-bottom: 5px;
+  }
+  
+  .extras {
+    display: flex;
+    background-color: rgb(171, 174, 177, 0.4);
+    border-radius: 10px;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 8px;
+  }
+  
+  .Botones {
+    text-align: center;
+  }
+  
+  @media (max-width: 1140px) {
+    .contenedorGrupos {
+      grid-template-areas:
+        "info"
+        "coche"
+        "comentario"
+        "envio";
+      grid-template-columns: 1fr;
+    }
+  }
